@@ -2,7 +2,7 @@
 
 This control is similar to the android floating button. Floating button is an amazing control to add quickly accessible options. Since there is no native control like this in iOS, so this control can be used to add this functionality.
 ## Preview
-<img src="https://github.com/kciter/Floaty/raw/master/Images/preview.gif" width='187' alt="Preview gif">
+<img src="https://github.com/Akshay-iOS-Developer/iFloatingActionButton/blob/master/close.png" width='187' alt="Closed PNG">
 
 ## Requirements
 * iOS 8.0+
@@ -43,7 +43,7 @@ To install manually the iFloatingActionButton in an app, just drag the `Classes/
         self.view.addSubview(self.floatingControl!)
 
 ```
-<img src="https://github.com/kciter/Floaty/raw/master/Images/dependent_on_uiwindow.gif" width='187' alt="Dependent on the UIWindow">
+<img src="https://github.com/Akshay-iOS-Developer/iFloatingActionButton/blob/master/close.png" width='187' alt="Open PNG">
 
 
 ## ToDo
