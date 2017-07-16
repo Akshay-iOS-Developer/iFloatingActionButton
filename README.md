@@ -43,7 +43,7 @@ To install manually the iFloatingActionButton in an app, just drag the `Classes/
         self.view.addSubview(self.floatingControl!)
 
 ```
-<img src="https://github.com/Akshay-iOS-Developer/iFloatingActionButton/blob/master/close.png" width='187' alt="Open PNG">
+<img src="https://github.com/Akshay-iOS-Developer/iFloatingActionButton/blob/master/Open.png" width='187' alt="Open PNG">
 
 
 ## ToDo
