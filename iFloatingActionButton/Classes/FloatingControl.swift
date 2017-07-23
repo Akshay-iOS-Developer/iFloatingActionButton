@@ -29,7 +29,7 @@ public enum AnimationType{
     @IBOutlet weak var itemTableView: UITableView!
     
     public class func initFloatingControl(X vX:CGFloat, Y vY:CGFloat) -> FloatingControl{
-        let bundle:Bundle = Bundle.main
+        let bundle:Bundle = Bundle(for: self.classForCoder())
         let floatingControl:FloatingControl = bundle.loadNibNamed("FloatingControl", owner: self, options: nil)?.last as! FloatingControl
         floatingControl.viewHeight = 50
         floatingControl.viewInitYCord = vY
