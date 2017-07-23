@@ -23,12 +23,12 @@ To install manually the iFloatingActionButton in an app, just drag the `Classes/
 
 
 ```swift
- let floatingControl = FloatingControl.initFloatingControl(X: 100, Y:100)
+ let floatingControl = FloatingControl.initFloatingControl(X: self.view.frame.size.width-260, Y:100)
         floatingControl?.animation = .Delayed
         floatingControl?.addItem(title: "First Item", image: UIImage(named: "ic_item1")!) {
             print("Item1 clicked")
         }
-        self.floatingControl?.addItem(title: "Second Item", image: UIImage(named: "ic_item2")!) {
+        floatingControl?.addItem(title: "Second Item", image: UIImage(named: "ic_item2")!) {
             print("Item2 clicked")
             
         }
@@ -40,7 +40,7 @@ To install manually the iFloatingActionButton in an app, just drag the `Classes/
             print("Item3 clicked")
             
         }
-        self.view.addSubview(self.floatingControl!)
+        self.view.addSubview(floatingControl!)
 
 ```
 <img src="https://github.com/Akshay-iOS-Developer/iFloatingActionButton/blob/master/Open.png" width='187' alt="Open PNG">
